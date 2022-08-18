@@ -76,7 +76,7 @@ $(function () {
     })
 
     $("#mute_button").click(function(){
-        const enabled=myStream.getAudioTracks()[0].enabled()
+        const enabled=myStream.getAudioTracks()[0].enabled
         if(enabled){
             myStream.getAudioTracks()[0].enabled=false
             html=`<i class="fas fa-microphone-slash"></i>`
@@ -92,7 +92,7 @@ $(function () {
     })
 
     $("#stop_video").click(function(){
-        const enabled=myStream.getVideoTracks()[0].enabled()
+        const enabled=myStream.getVideoTracks()[0].enabled
         if(enabled){
             myStream.getVideoTracks()[0].enabled=false
             html=`<i class="fas fa-video-slash"></i>`
