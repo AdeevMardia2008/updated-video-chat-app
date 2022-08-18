@@ -133,6 +133,6 @@ video {
     display: flex;
   }
 }
-.background_red{
-  background: color #f64848;
+.background_red {
+  background-color:#f64848;
 }
