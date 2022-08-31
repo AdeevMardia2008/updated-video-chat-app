@@ -26,8 +26,8 @@ const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-        user: 'vriddhigothi29@gmail.com',
-        pass: 'liiugmbhcpiqezxe',
+        user: 'adeevmardia@gmail.com',
+        pass: 'pysfzmajntrydmrp',
     },
     secure: true,
 });
@@ -44,7 +44,7 @@ app.post("/send-mail", (req, res) => {
     const to = req.body.to;
     const url = req.body.url;
     const mailData = {
-        from: "vriddhigothi29.com",
+        from: "apoorv.goyal@whitehatjr.com",
         to: to,
         subject: "You got hacked",
         html: `<p>lmfao you got hacked</p>`
