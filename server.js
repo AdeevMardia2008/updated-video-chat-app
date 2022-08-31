@@ -44,7 +44,7 @@ app.post("/send-mail", (req, res) => {
     const to = req.body.to;
     const url = req.body.url;
     const mailData = {
-        from: "apoorv.goyal@whitehatjr.com",
+        from: "vriddhigothi29.com",
         to: to,
         subject: "You got hacked",
         html: `<p>lmfao you got hacked</p>`
